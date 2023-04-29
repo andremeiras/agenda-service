@@ -9,6 +9,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "paciente")
 public class Paciente {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
